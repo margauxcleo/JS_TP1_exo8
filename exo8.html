@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP1 - exo 8</title>
+    
+</head>
+<body>
+    <form name="calc" method="POST">
+        <label for="nbr1">Indiquer le premier chiffre</label>
+        <input type="text" name="nbr1">
+        <br>
+        <label for="nbr1">Indiquer le second chiffre</label>
+        <input type="text" name="nbr2">
+        <br>
+        <!-- <input type="button" value="+" onClick="additionner()" />
+        <br>
+        <input type="button" value="‐" onClick="soustraire()" />
+        <br>
+        <input type="button" value="*" onClick="multiplier()" />
+        <br>
+        <input type="button" value="/" onClick="diviser()" /> -->
+
+        <button type="button" onClick="additionner()">+</button>
+        <button type="button" onClick="soustraire()">-</button>
+        <button type="button" onClick="multiplier()">*</button>
+        <button type="button" onClick="diviser()">/</button>
+        <br>
+
+        <label for="res">Résultat</label>
+        <input type="text" name="res">
+        
+    </form>
+    <script src="assets/js/exo8.js"></script>
+</body>
+</html> 
